@@ -34,9 +34,9 @@ reporting:
     ams: true
     clientCorrelationId: true
     currency: true
-    customData: false
+    customData: true
     confirmationReceived: false
-    errorCode: false
+    errorCode: true
     errorDescription: true
     errorInformation: true
     externalId: true
@@ -47,7 +47,7 @@ reporting:
     mpesaTransactionId: false
     mpesaTransactionStatusRetryCount: false
     originDate: false
-    partyLookupFailed: false
+    partyLookupFailed: true
     phoneNumber: true
     processDefinitionKey: false
     processInstanceKey: true
@@ -55,8 +55,8 @@ reporting:
     tenantId: false
     timer: false
     timestamp: true
-    transactionFailed: false
+    transactionFailed: true
     transactionId: false
-    transferCreateFailed: false
-    transferSettlementFailed: false
+    transferCreateFailed: true
+    transferSettlementFailed: true
     transferResponseCREATE: false
