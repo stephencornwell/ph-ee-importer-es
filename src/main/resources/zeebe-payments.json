@@ -63,7 +63,13 @@
           "type": "text"
         },
         "customData": {
-          "type": "text"
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
         },
         "errorCode": {
           "type": "text",
@@ -114,7 +120,13 @@
           "type": "date"
         },
         "partyLookupFailed": {
-          "type": "text"
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
         },
         "phoneNumber": {
           "type": "text"
@@ -150,16 +162,34 @@
           "type": "date"
         },
         "transactionFailed": {
-          "type": "text"
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
         },
         "transactionId": {
           "type": "text"
         },
         "transferCreateFailed": {
-          "type": "text"
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
         },
         "transferSettlementFailed": {
-          "type": "text"
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
         }
       }
     }
